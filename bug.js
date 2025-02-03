@@ -1,0 +1,1 @@
+This error occurs when using the Expo ImagePicker library and selecting a video. The library returns a uri that contains the file extension '.mov' or '.mp4' however when accessing the video with a video player, it may throw an error because the actual file extension is different.  For instance, the uri might suggest '.mp4', but the actual file is an '.MOV' file (case sensitive).
